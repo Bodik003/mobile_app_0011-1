@@ -6,6 +6,7 @@ import pytz
 import time
 from PIL import Image
 from discord.ext import tasks
+import os
 
 
 Bot = commands.Bot(".")
@@ -288,4 +289,5 @@ async def change_status():
                     time.sleep(61)
 
 
-Bot.run('ODM4NDU0NTYzMzk5OTI1Nzky.YI7VqQ.POY-YF9hd9nda-Usq7DU0kyCoCs')
+
+token = os.environ.get('BOT_TOKEN')
