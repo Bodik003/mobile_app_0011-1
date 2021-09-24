@@ -7,6 +7,6 @@ package.domain = org.wiseplat
 
 source.dir = .
 
-version = 0.5
-
 source.include_exts = kv
+
+version = 0.5
