@@ -7,4 +7,4 @@ package.domain = org.wiseplat
 
 source.dir = .
 
-version = 0.3
+version = 0.4
