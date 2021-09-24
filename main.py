@@ -1,13 +1,11 @@
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.screenmanager import ScreenManager, Screen
-from kivy.core.window import Window
 from kivy.uix.gridlayout import GridLayout
 from kivy.properties import ObjectProperty
 from kivy.config import Config
 from kivy.uix.anchorlayout import AnchorLayout
 
-Window.size = (400, 800)
 
 Config.set('kivy', 'keyboard_mode', 'systemanddock')
 
