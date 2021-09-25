@@ -10,7 +10,7 @@ source.dir = .
 
 source.include_exts = 
 
-version = 0.8
+version = 0.9
 
 requirements = python3,kivy==2.0.0
 
